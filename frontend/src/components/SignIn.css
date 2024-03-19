@@ -1,0 +1,79 @@
+body{
+    /* background-image: url('qb.jpeg'); */
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  
+  
+  }
+  .signin-container {
+      text-align: center;
+      /* background-color: white; */
+     
+      width: 350px;
+      /* border: 1px solid black; */
+      border-radius: 20px;
+      background-color: transparent;
+      backdrop-filter: blur(5px);
+    }
+    .signin-container:hover {
+      box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow color and intensity as needed */
+  }
+    
+    .signin-form {
+      max-width: 300px; /* Adjust the maximum width of the sign-in form */
+      margin: 0 auto; /* Center the form horizontally */
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .signin-input {
+      width: 100%; /* Make input boxes take up full width */
+      margin-bottom: 10px; /* Adjust spacing between input boxes */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .signin-input:hover {
+      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  
+  
+    }
+    
+    .submit-button {
+      width: 60%; /* Make the submit button take up full width */
+      padding: 10px;
+      background-color: purple;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    
+    .submit-button:hover {
+      
+      border-radius: 20px;
+      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+      
+      /* Adjust button color on hover */
+    }
+    
+    .signup-link {
+      display: block;
+      margin-top: 10px; /* Adjust top margin of the sign up link */
+      text-decoration: none;
+      color: white;
+    }
+    .ab {
+      width: 150px;
+      height: 40px;
+      padding: 5px;
+      background-color:purple; 
+      border-radius: 8px;
+      color: red; /* Change text color to red */
+      border-radius: 20px;
+    }
+   .ab:hover{
+    background-color:purple ;
+    border-radius: 40px;
+   }

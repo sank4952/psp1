@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container2 {
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+}
+
+
+.container2 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.container2 label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.container2 input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.container2 input:hover,
+.container2 input:focus {
+  border-color: #007bff; 
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 5px rgba(194,195,196,0.893);
+}
+
+.container2 input::placeholder {
+  color: #a9a9a9;
+}
+
+.container2 button {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  background-color:purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 7px;
+  border-radius: 15px
+}
+
+.container2 button:hover {
+
+  border-radius: 15px;
+  
+  
+
+}
+.container2 h2{
+  color: white;
+}
+.container2 h1{
+  font-size: 40px;
+}

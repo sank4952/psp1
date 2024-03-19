@@ -1,0 +1,23 @@
+.body{
+  background-image: url('../qb.jpeg');
+  background-image: 100% 100%;
+  background-color: red;
+}
+button {
+  background-color: purple;
+  padding: 10px 20px; /* Adjust padding to increase button size */
+  border-radius: 10px;
+  margin: 10px; /* Adjust margin for spacing */
+  color: white; /* Add text color */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Add pointer cursor for better UX */
+  border: none; /* Remove default button border */
+}
+
+button:hover {
+  background-color: #d306c9; /* Change background color on hover */
+  border: 2px solid rgb(15, 139, 255); /* Add blue border on hover */
+  box-shadow: 5px 5px 5px rgba(28, 106, 223, 0.893);
+}
+
+  
